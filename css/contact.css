@@ -1,0 +1,98 @@
+/* General Style for Contact Section */
+#contact {
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+#contact h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2e0058;
+}
+
+#cp{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Form Styling */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    align-self: flex-start;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #380041;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #6c3483;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #5b2c6f;
+}
+
+/* Contact Information Styling */
+#contact h2{
+    font-size: 45px;
+    text-align: center;
+    color: #5e4b8b;
+}
+
+#contact p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+#em2{
+
+    text-align: center;
+
+}
+
+#em3{
+
+    text-align: center;
+
+}
+
+#em4{
+
+    text-align: center;
+
+}

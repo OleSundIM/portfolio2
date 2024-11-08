@@ -1,0 +1,121 @@
+/* base.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f3ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #5e4b8b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p, footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* About Section General Styling */
+.about-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+
+    text-align: center;
+
+
+}
+
+#ti{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-align: center;
+    color: violet;
+
+
+
+}
+#ti2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+
+}
+#ti3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #4b2c6f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    
+}
+
+/* Target the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track styling */
+  ::-webkit-scrollbar-track {
+    background: #f2c7ff; /* Color of the track */
+  }
+  
+  /* Handle styling */
+  ::-webkit-scrollbar-thumb {
+    background: #d045fa; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners on the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #690092; /* Darker color when hovering */
+  }

@@ -1,0 +1,252 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f3ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #5e4b8b;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #7a5fa5;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d0b4ff;
+}
+
+/* Section Styles */
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h2 {
+    font-size: 2rem;
+    color: #4b2c6f;
+    border-bottom: 2px solid #d0b4ff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* About Section */
+#h2{
+    text-align: center;
+    font-size: xx-large;
+
+
+
+}
+#p1 {
+    font-size: 1.1rem;
+    color: #8c00ff;
+    text-align: center;
+}
+#p2{
+    font-size: 1.1rem;
+    color: #ff00bf;
+    text-align: center;
+}
+#p3{
+    font-size: 1.1rem;
+    color: #8c00ff;
+    text-align: center;
+
+}
+
+
+
+/* Skills Section */
+.skills ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+    color: #5e4b8b;
+    
+
+}
+
+#h2
+
+.skills ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+#f1{
+
+    text-align: center;
+
+
+
+
+}
+
+#f2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: #ff69da;
+    text-align: center;
+
+
+}
+
+#f3{
+
+    text-align: center;
+
+
+
+}
+
+#f4{
+
+    text-align: center;
+
+
+
+}
+
+#f5{
+
+    text-align: center;
+
+
+
+}
+
+#f6{
+
+    text-align: center;
+
+
+
+}
+
+#f7{
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+/* Contact Section */
+
+h2{
+
+    text-align: center;
+
+
+}
+
+#ti{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-align: center;
+    color: violet;
+
+
+
+}
+#ti2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+
+}
+#ti3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+
+/* Footer */
+footer {
+    background-color: #4b2c6f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    
+}       
+
+/* Target the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track styling */
+  ::-webkit-scrollbar-track {
+    background: #f2c7ff; /* Color of the track */
+  }
+  
+  /* Handle styling */
+  ::-webkit-scrollbar-thumb {
+    background: #d045fa; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners on the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #690092; /* Darker color when hovering */
+  }
